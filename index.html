@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello Ernest</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Torah Quote</title>
   <style>
     body {
+      background-color: black;
+      color: white;
       font-family: Arial, sans-serif;
       display: flex;
-      justify-content: center;
       align-items: center;
+      justify-content: center;
       height: 100vh;
-      background-color: #f0f0f0;
       margin: 0;
     }
-    h1 {
-      color: #2c3e50;
-      font-size: 3em;
+    .quote-box {
+      background-color: #1e3a8a; /* Tailwind's blue-800 */
+      padding: 2rem;
+      border-radius: 1rem;
+      max-width: 600px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+    .quote-text {
+      font-size: 1.5rem;
+      font-style: italic;
+    }
+    .quote-citation {
+      margin-top: 1rem;
+      text-align: right;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <h1>Hello Ernest</h1>
+  <div class="quote-box">
+    <div class="quote-text">
+      “Be strong and courageous. Do not be afraid or terrified because of them, for the LORD your God goes with you; he will never leave you nor forsake you.”
+    </div>
+    <div class="quote-citation">
+      — Deuteronomy 31:6
+    </div>
+  </div>
 </body>
 </html>
